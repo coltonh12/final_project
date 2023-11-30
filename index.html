@@ -63,23 +63,28 @@
     <section>
       <form>
   
-          </label>
-          <label>Email address:
-          <input type="text">
-        </label>
-        <label for="dropdown">Select a reason for contacting:</label>
-        <select id="dropdown" name="contact"></select>
-    <option value="Want to make appointment">Want to make appointment</option>
-    <option value="Have a question">Have a question</option>
-    <option value="Need to reschdule">Need to reschedule</option>
-      </select>
-      <label>Open Comment:
-        <input type="text">
-        <input type="submit" value="submit">
-        </label>
-      </form>
-    </section>
-    </div>
-    
+        <div>
+          <section>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+              
+              <label for="email">Email address:</label>
+              <input type="text" id="email" name="email">
+              
+              <label for="dropdown">Select a reason for contacting:</label>
+              <select id="dropdown" name="contact">
+                <option value="Want to make appointment">Want to make an appointment</option>
+                <option value="Have a question">Have a question</option>
+                <option value="Need to reschedule">Need to reschedule</option>
+              </select>
+              
+              <label for="comment">Open Comment:</label>
+              <input type="text" id="comment" name="comment">
+              
+              <input type="submit" value="Submit">
+            </form>
+          </section>
+        </div>
   </body>
 </html>

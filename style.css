@@ -2,7 +2,7 @@ body {
     background-color: rgba(251, 205, 255, 0.962);
     margin: 50px;
     padding: 0;
-    font-size: larger;
+    font-size: medium;
 }
 header {
     border: 2px solid black;

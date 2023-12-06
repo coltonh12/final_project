@@ -11,9 +11,9 @@ header {
     border-radius: 8px;
 }
 img {
-    width: 100%;
+   max-width: 100%;
     height: auto;
-    display: block;
+    
 }
 .frequently-asked-questions {
     margin-bottom: 20px;

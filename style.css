@@ -40,7 +40,7 @@ h1{
     margin-bottom: 20px;
     font-size: larger;
 }
-p {
+.about-us {
     border: 2px solid;
     padding: 20px;
     text-align: justify;

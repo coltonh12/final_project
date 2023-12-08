@@ -3,6 +3,7 @@ body {
     margin: 75px;
     padding: 0;
     font-size: medium;
+    text-align: center;
 }
 header {
     border: 2px solid black;
@@ -22,6 +23,7 @@ img {
 dl{
     list-style: none;
     padding: 0;
+    
 }
 dt{
     font-weight: bold;

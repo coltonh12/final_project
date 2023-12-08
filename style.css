@@ -49,3 +49,8 @@ h1{
     font-size: larger;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+body {
+    background-color: rgb(255, 190, 255);
+}
+}
